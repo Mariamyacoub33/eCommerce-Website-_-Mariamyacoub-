@@ -19,6 +19,7 @@ function Cartpage  ({ cartItems, removeFromCart }) {
 <label>Price</label>
 <label>Quantity</label>
 <label>Subtotal</label>
+<label>Remove</label>
           </div>
       {cartItems.length > 0 ? (
         cartItems.map((item) => (
