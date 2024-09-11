@@ -1,0 +1,162 @@
+#Homepagediv{
+width: 100%;
+height: 700px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 100px;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+#wallDec{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#Categprod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+#Categ{
+    padding-bottom: 20px;
+    font-family: "Poppins";
+  font-weight: bold;
+  font-size: 32px;
+}
+
+#AllProducts{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+justify-content: space-around;
+gap: 10px;
+}
+
+#linkCategory{
+    color: #333333;
+}
+
+
+.productbox{
+    width: 220px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.imgproduct{
+width: 220px;
+height: 310px;
+border-radius: 10px;
+background-color: transparent;
+}
+
+.nameproduct{
+    font-family: "Poppins";
+  font-weight: medium;
+  font-size: 16px;
+}
+
+#infoaboutservic{
+    width: 100%;
+    height: 270px;
+    /* padding: 50px 30px 50px 30px;
+    box-sizing: border-box; */
+    background-color: #FAF3EA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Servic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+}
+
+.servicname{
+    color: #242424;
+    font-family: "Poppins";
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.servicdis{
+    color: #898989;
+    font-family: "Poppins";
+  font-weight: medium;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 450px) {
+    #Homepagediv{
+        height:auto;
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+        
+        #wallDec{
+            height: 150px;
+        }
+
+        #Categ{
+            padding-bottom: 10px;
+          font-size: 24px;
+        }
+
+        #AllProducts{
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .productbox{
+            width: 150px;
+            height: 100px;
+        }
+
+        .imgproduct{
+            width: 150px;
+            height: 100px;
+            }
+
+            .nameproduct{
+              font-size: 12px;
+              margin: 0px;
+            }
+    
+    #infoaboutservic{
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .servicname{
+      font-size: 16px;
+    }
+
+    .servicdis{
+      font-size: 12px;
+    }
+}

@@ -1,0 +1,169 @@
+
+.containercart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.deleticon{
+    width: 21px;
+    height: 21px;
+}
+
+.leftcart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.Cartdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+    justify-content: space-around;
+}
+
+.imgincart{
+    width: 110px;
+    height: 105px;
+}
+
+.navtoproduct{
+    width: 820px;
+    height: 55px;
+    background-color: #F9F1E7;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+
+.carttotal{
+    width: 305px;
+    height: 450px;
+    background-color: #F9F1E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.Subtotal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   gap: 50px;
+}
+
+.Subtotal label{
+    color: #000;
+    font-family: "Poppins";
+  font-weight: medium;
+  font-size: 16px;
+}
+
+.Subtotal p{
+    color: #9F9F9F;
+    font-family: "Poppins";
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.total{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   gap: 50px;
+}
+
+.total label{
+    color: #000;
+    font-family: "Poppins";
+  font-weight: medium;
+  font-size: 16px;
+}
+
+.total p{
+    color: #9F9F9F;
+    font-family: "Poppins";
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.CheckOut{
+    border: 2px #000000 solid;
+    width: 225px;
+    height: 65px;
+    border-radius: 15px;
+    padding: '10px 20px';
+         cursor: pointer;
+         font-family: "Poppins";
+         font-weight: normal;
+           font-size: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+    .containercart{
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+    
+    .deleticon{
+        width: 16px;
+        height: 16px;
+    }
+
+    .leftcart{
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .Cartdiv{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .imgincart{
+        width: 50px;
+        height: 35px;
+    }
+    
+    .navtoproduct{
+        width: 50px;
+        height: 250px;
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+    .Cartdiv input {
+width: 30px;
+    }
+    
+    .carttotal{
+        width: 90%;
+        height: 350px;
+    }
+    
+    .Subtotal label{
+      font-size: 20px;
+    }
+    
+    .Subtotal p{
+      font-size: 18px;
+    }
+    
+    .total label{
+        font-size: 20px;;
+    }
+    
+    .total p{
+        font-size: 18px;
+    }
+    
+}

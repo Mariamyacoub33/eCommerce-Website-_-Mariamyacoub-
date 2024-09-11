@@ -1,0 +1,197 @@
+
+.LogoimgCon{
+    width: 80px;
+    height: 60px;
+ }
+
+ .containercontact{
+    width: 100%;
+    height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+ }
+
+ .Upperdivcon{
+    width: 100%;
+    height:220px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .Get{
+    font-family: "Poppins";
+  font-weight: 800;
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 5px;
+ }
+
+ .formore{
+    width: 50%;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 16px;
+    color: #9F9F9F;
+ }
+
+ .Bottomdivcon{
+    width: 75%;
+    height:920px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+ }
+
+ .cardinfo {
+    width: 395px;
+    height: 540px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .iconimg {
+    width: 22px;
+    height: 28px;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .textLS{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textLS > label{
+    font-family: "Poppins";
+  font-weight: 800;
+  font-size: 24px;
+  color: #000;
+  }
+
+  .textLS > span{
+    font-family: "Poppins";
+  font-weight: normal;
+  font-size: 14px;
+  color: #000;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+  }
+
+  .labelwinput{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .labelwinput input {
+    width: 500px;
+    height: 75px;
+border: 1px #9F9F9F solid;
+border-radius: 10px;
+  }
+
+  .labelwinput label {
+    font-family: "Poppins";
+  font-weight: 800;
+  font-size: 16px;
+  color: #000;
+  }
+
+  .labelwinputmes{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .labelwinputmes input{
+    width: 500px;
+    height: 120px;
+border: 1px #9F9F9F solid;
+border-radius: 10px;
+  }
+
+  .labelwinputmes label {
+    font-family: "Poppins";
+  font-weight: 800;
+  font-size: 16px;
+  color: #000;
+  }
+
+  .submit-button {
+    width: 235px;
+    height: 55px;
+        background-color: #B88E2F; /* لون الزر */
+        border: none;
+        border-radius: 10px; /* زوايا مستديرة */
+        color: white; /* لون النص */
+        padding: 10px 20px; /* حجم الزر */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px; /* حجم النص */
+        cursor: pointer; /* مؤشر الفأرة */
+      }
+
+      @media only screen and (max-width: 450px) {
+        .LogoimgCon{
+          width: 40px;
+          height: 30px;
+       }
+
+        .Bottomdivcon{
+          width: 90%;
+          height: auto;
+          flex-direction: column;
+        }
+
+        .Upperdivcon{
+          height:auto ;
+       }
+
+        .formore{
+          width: 70%;
+          font-size: 12px;
+       }
+
+        .cardinfo {
+          width: 300px;
+          height: 420px;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+        }
+
+        form{
+          gap: 15px;
+          align-items: center;
+        }
+
+        .labelwinput input {
+          width: 250px;
+          height: 50px;
+        }
+
+        .labelwinputmes input{
+          width: 250px;
+          height: 50px;
+        }
+      }

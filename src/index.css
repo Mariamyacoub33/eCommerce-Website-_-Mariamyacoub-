@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/Fonts/Montserrat-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/Fonts/Montserrat-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/Fonts/Montserrat-ExtraBold.ttf);
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/Fonts/Poppins-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/Fonts/Poppins-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/Fonts/Poppins-ExtraBold.ttf);
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/Fonts/Poppins-Medium.ttf);
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/Fonts/Poppins-SemiBold.ttf);
+  font-weight: 800px ;
+}
+
+html{
+  width: 100%;
+  height:auto;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  margin: 0%;
+}
+
+#root{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  /* gap: 50px; */
+}
+
+@media only screen and (max-width: 450px) {
+  
+  body{
+    width: 100%;
+    height: auto;
+  }
+
+  #root{
+    width: 100%;
+    height: auto;
+  }
+}

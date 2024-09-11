@@ -1,0 +1,358 @@
+#layoutdiv{
+    width: 100%;
+    height: auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+position: relative;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(218, 214, 214);
+
+}
+
+ul.linknav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+
+ul.linknav a:link {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: medium;
+  font-size: 20px;
+    }
+
+    ul.linknav a:visited{
+        color: #000000;
+        background-color: transparent;
+  text-decoration: none;
+    }
+
+    ul.linknav a:hover{
+        color: hsl(219, 9%, 45%);
+        background-color: transparent;
+    }
+
+    #startnav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #Furniro{
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 34px;
+    }
+
+    #Logoimg{
+        width: 40px;
+        height: 30px;
+    }
+
+    #iconcart{
+        cursor: pointer;
+        padding-left: 250px;
+        position: relative;
+    }
+
+    .Btncart{
+        padding: 0%;
+        position: absolute;
+        top: 35px;
+        right: 170px;
+    }
+    
+    #Avatar{
+        width: 40px;
+        border: 1px solid red;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    footer{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+       top: 100%;
+      padding: 30px 70px 30px 70px;
+      box-sizing: border-box;
+    }
+
+    #infodiv{
+        width: 90%;
+        height: 410px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #Leftdiv{
+        width: 35%;
+        height: 100%;
+    }
+
+    #funlabel{
+        font-family: "Poppins";
+  font-weight: bold;
+  font-size: 24px;
+    }
+
+    #Prightdiv{
+        padding-top: 60px;
+        font-family: "Poppins";
+  font-weight: normal;
+  font-size: 14px;
+  color: #9F9F9F;
+    }
+
+    p{
+        display: block;
+  margin: 0px;
+    }
+
+    #Rightdiv{
+        width: 65%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    #linkscolumn{
+        width: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 50px;
+    }
+
+    .labelfooterlink{
+        font-family: "Poppins";
+  font-weight: medium;
+  font-size: 16px;
+        color: #9F9F9F;
+    }
+
+    ul.linkfooter{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        align-items: center;
+        justify-content: space-around;
+        gap: 80px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    ul.linkfooter a:link {
+        color: #000000;
+        background-color: transparent;
+        text-decoration: none;
+        font-family: "Poppins";
+        font-weight: bold;
+        font-size: 12px;
+          }
+
+          ul.linkfooter a:visited{
+            color: #000000;
+            background-color: transparent;
+      text-decoration: none;
+        }
+
+        ul.linkfooter a:hover{
+            color: hsl(219, 9%, 45%);
+            background-color: transparent;
+        }
+
+        #helpcolumn{
+            width: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 50px;
+        }
+
+        #bottomhelp{
+            display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 80px;
+        padding: 0px;
+        margin: 0px;
+        }
+
+       .labelhelp {
+            color: #000000;
+            background-color: transparent;
+            text-decoration: none;
+            font-family: "Poppins";
+            font-weight: bold;
+            font-size: 12px;
+              }
+
+              #newscolumn{
+                width: 280px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 50px;
+              }
+
+              #texbtn{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 10px;
+              }
+
+              #Enteryouremail{
+                border: none;
+                border-bottom: 1px #000000 solid;
+              }
+
+              #subbtn{
+                border: none;
+                background-color: transparent;
+                border-bottom: 1px #000000 solid;
+                color: #000000;
+                font-family: "Poppins";
+            font-weight: medium;
+            font-size: 16px;
+              }
+
+    #Pbottom{
+        color: #000000;
+        width: 90%;
+        border-top: 1px rgb(209, 207, 207) solid;
+        font-family: "Poppins";
+  font-weight: normal;
+  font-size: 14px;
+    }
+
+
+    @media only screen and (max-width: 450px) {
+
+        #layoutdiv{
+            width: 100%;
+            height: auto;
+    gap: 10px;
+        }
+
+        
+
+        nav{
+            height: 70px;
+        }
+
+        ul.linknav{
+            gap: 20px;
+        }
+
+        ul.linknav a:link {
+            font-size: 14px;
+              }
+
+              #Furniro{
+                font-size: 28px;
+            }
+
+            #Logoimg{
+                width: 30px;
+                height: 20px;
+            }
+
+            footer{
+                padding: 10px ;
+            }
+        
+            #infodiv{
+                width: 100%;
+                height: 380px;
+            }
+        
+            #Leftdiv{
+                width: 25%;
+                height: 70%;
+            }
+        
+            #funlabel{
+          font-size: 20px;
+            }
+        
+            #Prightdiv{
+          font-size: 12px;
+            }
+
+            #Rightdiv{
+                width: 70%;
+                height: 70%;
+                gap: 30px;
+            }
+        
+            #linkscolumn{
+                width: 50px;
+                gap: 10px;
+            }
+        
+            .labelfooterlink{
+          font-size: 14px;
+            }
+
+            ul.linkfooter{
+                gap: 50px;
+            }
+        
+                #helpcolumn{
+                    gap: 40px;
+                }
+        
+                #bottomhelp{
+                gap: 40px;
+                }
+        
+               .labelhelp {
+                    font-size: 10px;
+                      }
+        
+                      #newscolumn{
+                        width: 250px;
+                    gap: 30px;
+                      }
+        
+                      #texbtn{
+                        flex-direction: column;
+                      }
+        
+                      #subbtn{
+                    font-size: 14px;
+                      }
+        
+            #Pbottom{
+                padding-bottom: 50PX;
+          font-size: 12px;
+            }
+
+        #iconcart{
+            padding-left: 20px;
+        }
+
+      }

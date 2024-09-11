@@ -1,0 +1,36 @@
+.Counter{
+    width: 125px;
+    height: 65px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    border: 1px #9F9F9F solid;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#counter{
+    color: #000000;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 450px) {
+    .Counter{
+        width: 100px;
+        height: 40px;
+        flex-direction: row;
+        padding-bottom: 10px;
+        justify-content: space-around;
+    }
+    
+}
